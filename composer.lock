@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56abc574c9c50fc6e4b7f5ef2a76cd50",
+    "content-hash": "31d21a7102ebafb7aa8cdaa31948fa39",
     "packages": [
+        {
+            "name": "array-id/stub-generator",
+            "version": "v0.0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/array-id/stub-generator.git",
+                "reference": "671140889c002d6824b35f7817e93a3e241533d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/array-id/stub-generator/zipball/671140889c002d6824b35f7817e93a3e241533d1",
+                "reference": "671140889c002d6824b35f7817e93a3e241533d1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArrayID\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rizalfakhri",
+                    "email": "rizal@array.id"
+                }
+            ],
+            "description": "Generate Stub!",
+            "support": {
+                "issues": "https://github.com/array-id/stub-generator/issues",
+                "source": "https://github.com/array-id/stub-generator/tree/v0.0.1.1"
+            },
+            "time": "2020-12-15T18:08:55+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.2",

@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Services\AvatarDriver\Pipeline;
+
+use Closure;
+use App\Contracts\AvatarRequest;
+
+class :CLASS_NAME: {
+
+    /**
+     * Handle the AvatarRequest instance.
+     *
+     * @param  AvatarRequest $avatarRequest
+     * @param  Closure       $next
+     * @return Closure
+     */
+     public function handle(AvatarRequest $avatarRequest, Closure $next) {
+        return $next($avatarRequest);
+    }
+
+}

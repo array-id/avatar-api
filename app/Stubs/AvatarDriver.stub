@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Services\AvatarDriver;
+
+use App\Contracts\AvatarDriver;
+
+class :CLASS_NAME: implements AvatarDriver {
+
+    /**
+     * Retrieve avatar url from provider.
+     *
+     * @param  string $username
+     * @return string
+     */
+    public function getAvatarUrl($username) {
+      //
+    }
+
+}
